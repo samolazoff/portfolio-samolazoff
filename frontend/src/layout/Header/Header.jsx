@@ -2,7 +2,10 @@ import './Header.scss';
 
 const Header = () => {
     return (
-        <header>header</header>
+        <header className='app-header'>
+            <span>Logo</span>
+            <span>Nave</span>
+        </header>
     )
 };
 
