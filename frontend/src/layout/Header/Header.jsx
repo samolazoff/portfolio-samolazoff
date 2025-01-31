@@ -2,6 +2,7 @@ import './Header.scss';
 
 import Logo from '../../components/Logo/Logo';
 import {NavMain} from '../../components/NavMain/NavMain';
+import NavAuth from '../../components/NavAuth/NavAuth';
 
 const Header = () => {
     return (
@@ -9,6 +10,7 @@ const Header = () => {
             <Logo/>
             <nav className="app-header-navigate">
                 <NavMain/>
+                <NavAuth/>
             </nav>
         </header>
     )

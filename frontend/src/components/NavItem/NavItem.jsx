@@ -8,7 +8,13 @@ const NavItem = (props) => {
     
     return (
         <li className='nav-item'>
-            <NavLink to={`/${path}`}>{title}</NavLink>
+            <NavLink 
+                to={`/${path}`}
+                className = {
+                    ({ isActive }) =>(isActive ? "active" : "")
+                }
+                >{title}
+            </NavLink>
         </li>
     );
 };

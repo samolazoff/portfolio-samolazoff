@@ -1,0 +1,39 @@
+.nav-auth{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 2rem;
+}
+.nav-auth-item{
+    width: 100px;
+    padding: .3rem .5rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    text-align: center;
+    color: #333333;
+    border: #357ABD solid 2px;
+    border-radius: 10px;
+    &_in{
+        background-color: #357ABD;
+        &:hover{
+            background-color: #F5F5F5;
+            color: #357ABD;
+        }
+    }
+    &_up{
+        color: #357ABD;
+        &:hover{
+            background-color:#357ABD;
+            color: #333333;
+        }
+    }
+    
+    // a{
+    //     padding: 1rem 0;
+    // }
+    // .active{
+    //     color:  #4A90E2;
+    //     border-bottom: #4A90E2 2px solid;
+    // }
+}
