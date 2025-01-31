@@ -1,0 +1,16 @@
+.nav-item{
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: #333333;
+    &:hover{
+        color: #357ABD;
+    }
+    a{
+        padding: 1rem 0;
+    }
+    .active{
+        color:  #4A90E2;
+        border-bottom: #4A90E2 2px solid;
+    }
+}
