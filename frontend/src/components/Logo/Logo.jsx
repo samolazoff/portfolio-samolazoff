@@ -1,10 +1,13 @@
+import { MdPushPin } from "react-icons/md";
+
 import './Logo.scss';
-import {Link} from 'react-router-dom';
 
 const Logo = () => {
     return (
-        <h1 className='logo'>
-            {<Link to={'/'}>Samolazoff</Link>}
+        <h1 className="logo">
+            <MdPushPin className="pushPin pushPin_green"></MdPushPin>
+            <MdPushPin className="pushPin pushPin_yellow"></MdPushPin>
+            <MdPushPin className="pushPin pushPin_red"></MdPushPin>
         </h1>
     );
 };

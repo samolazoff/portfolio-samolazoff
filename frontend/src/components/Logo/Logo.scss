@@ -1,3 +1,17 @@
 .logo{
-    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pushPin{
+    width: 50px;
+    &_green{
+        color: #00ff00;
+    }
+    &_yellow{
+        color: #ffff00;
+    }
+    &_red{
+        color: #ff0000;
+    }
 }

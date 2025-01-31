@@ -2,7 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
     width: 100%;
     height: 120px;
     padding: 0 2rem;
+    &-navigate{
+        width: 100%;
+    }
 }
