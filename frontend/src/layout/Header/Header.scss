@@ -1,4 +1,5 @@
 .app-header{
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,10 +8,24 @@
     padding: 0 2rem;
     &-navigate{
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         align-items:center;
         gap: 4rem;
         width: 100%;
         padding: 2rem 0;
+        &_small{
+            position: absolute;
+            top: 0;
+            right: 0;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 2rem;
+            min-width: 300px;
+            height: 100vh;
+            background-color: #222222;
+            opacity: .9;
+        }
     }
 }

@@ -7,33 +7,43 @@ import Logo from '../../components/Logo/Logo';
 import {NavMain} from '../../components/NavMain/NavMain';
 import NavAuth from '../../components/NavAuth/NavAuth';
 
-const Header = () => {
+const Header = (props) => {
+   
+    const {widthWindow} = props;
     const [isOpen, setOpen] = useState(false);
-    const [isBurger, setBurger] = useState(false);
 
-
-    const updateWindowsSize = () => {
-        if(window.innerWidth<992){
-            setBurger(true)
+    const listClassNavigation = () => {
+        if(!widthWindow){
+            return ('app-header-navigate')
         }else{
-            setBurger(false)
+            return ('app-header-navigate d-none')
         }
     };
+    const [navClass, setNavClass] = useState(listClassNavigation());
 
-    useEffect(()=>{
-        addEventListener('resize', updateWindowsSize)
-    });
-    
     return (
         <header className='app-header'>
             <Logo/>
-            
-            
-            <nav className="app-header-navigate">
-                <NavMain/>
-                <NavAuth/>
+            <nav className={navClass}>
+                <NavMain widthWindow={widthWindow}/>
+                <NavAuth widthWindow={widthWindow}/>
             </nav>
-            {isBurger&& <Hamburger toggled={isOpen} toggle={setOpen} />}
+            {
+                widthWindow && <Hamburger
+                                    color ='#4A90E2'
+                                    toggled={isOpen} 
+                                    toggle={setOpen} 
+                                    onToggle={
+                                        toggled => {
+                                            if (toggled) {
+                                                setNavClass('app-header-navigate app-header-navigate_small')
+                                            } else {
+                                                setNavClass('app-header-navigate d-none')
+                                            }
+                                        }
+                                    }
+                                />
+            }
         </header>
     )
 };

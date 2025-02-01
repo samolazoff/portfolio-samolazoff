@@ -4,10 +4,11 @@ import {Outlet} from 'react-router-dom';
 
 import Header from './Header/Header';
 
-const Layout = () => {
+const Layout = (props) => {
+    const {widthWindow} = props;
     return(
         <>
-        <Header/>
+        <Header widthWindow={widthWindow}/>
             <main className='app-main'>
                 <Outlet/>
             </main>

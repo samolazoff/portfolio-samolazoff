@@ -1,7 +1,14 @@
 .nav-main{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 1rem;
     width: 100%;
+    &_big{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &_small{
+        flex-direction: column;
+        justify-content: center;
+    }
 }
