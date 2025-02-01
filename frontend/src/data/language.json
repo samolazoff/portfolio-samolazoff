@@ -1,0 +1,70 @@
+{
+    "en": {
+        "navMain": [
+            {
+                "title": "home",
+                "path": ""
+            },
+            {
+                "title": "portfolio",
+                "path": "portfolio"
+            },
+            {
+                "title": "blog",
+                "path": "blog"
+            },
+            {
+                "title": "skills",
+                "path": "skills"
+            },
+            {
+                "title": "contacts",
+                "path": "contacts"
+            }
+        ],
+        "navAuth": [
+            {
+                "title": "Sign Up",
+                "path": "auth"
+            },
+            {
+                "title": "Log in",
+                "path": "login"
+            }
+        ]
+    },
+    "ru": {
+        "navMain": [
+            {
+                "title": "старт",
+                "path": ""
+            },
+            {
+                "title": "портфолио",
+                "path": "portfolio"
+            },
+            {
+                "title": "Блог",
+                "path": "blog"
+            },
+            {
+                "title": "Скилы",
+                "path": "skills"
+            },
+            {
+                "title": "Контакты",
+                "path": "contacts"
+            }
+        ],
+        "navAuth": [
+            {
+                "title": "вход",
+                "path": "auth"
+            },
+            {
+                "title": "регистрация",
+                "path": "login"
+            }
+        ]
+    }
+}

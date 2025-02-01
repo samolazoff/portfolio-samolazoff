@@ -8,7 +8,7 @@ The project uses following technologies:
 
 ### `1. Tools for builde`
 
-[Vite)](https://vite.dev/) 
+[Vite)](https://vite.dev/)  
 
 ### `2. Layout`
 

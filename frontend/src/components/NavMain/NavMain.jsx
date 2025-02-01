@@ -1,33 +1,11 @@
 import './NavMain.scss';
 
-import { useEffect } from 'react';
+import {useSelector} from 'react-redux';
 
 import NavItem from '../NavItem/NavItem';
 
-const data = [
-    {
-        title: 'home',
-        path: ''
-    },
-    {
-        title: 'portfolio',
-        path: 'portfolio'
-    },
-    {
-        title: 'blog',
-        path: 'blog'
-    },
-    {
-        title: 'skills',
-        path: 'skills'
-    },
-    {
-        title: 'contscts',
-        path: 'contscts'
-    }
-];
-
 export const NavMain = (props) => {
+    const data = useSelector((state) => state.language.navMain);
     const {widthWindow} = props;
 return (
     <ul className={
