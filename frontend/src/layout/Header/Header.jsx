@@ -26,7 +26,7 @@ const Header = (props) => {
             <Logo/>
             <nav className={navClass}>
                 <NavMain widthWindow={widthWindow}/>
-                <NavAuth widthWindow={widthWindow}/>
+                <NavAuth />
             </nav>
             {
                 widthWindow && <Hamburger

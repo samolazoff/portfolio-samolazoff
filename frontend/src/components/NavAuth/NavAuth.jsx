@@ -2,15 +2,9 @@ import './NavAuth.scss';
 
 import {NavLink} from 'react-router-dom';
 
-const NavAuth = (props) => {
-    const {widthWindow, none} = props;
-    console.log(widthWindow, none);
-    
+const NavAuth = () => {
     return (
-        <ul className={
-            (!widthWindow)?('nav-auth'):('nav-auth')
-            // (!none)?('nav-auth'):('nav-auth d-none')
-        }>
+        <ul className='nav-auth'>
             <li className="nav-auth-item nav-auth-item_up" >
                 <NavLink to='/auth'>Sign Up</NavLink>
             </li>
