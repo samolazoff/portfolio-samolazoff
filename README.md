@@ -14,9 +14,9 @@ The project uses following technologies:
 
 [React](https://react.dev/)  
 [React Router](https://reactrouter.com/)  
-[Redux Toolkit](https://redux-toolkit.js.org/) 
-[React Icons](https://react-icons.github.io/react-icons/) 
-[Hamburger React](https://hamburger-react.netlify.app/) 
+[Redux Toolkit](https://redux-toolkit.js.org/)  
+[React Icons](https://react-icons.github.io/react-icons/)  
+[Hamburger React](https://hamburger-react.netlify.app/)  
 
 ### `3. Style`
 
