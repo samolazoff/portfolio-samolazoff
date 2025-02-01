@@ -1,0 +1,20 @@
+.panel-language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    button{
+        padding: .2rem .5rem;
+        border-radius: .5rem;
+        color: #333333;
+        background-color: #F5F5F5;
+        -webkit-box-shadow: 8px 8px 24px 0px #222222;
+        -moz-box-shadow: 8px 8px 24px 0px #222222;
+        box-shadow: 8px 8px 24px 0px #222222;
+        cursor: pointer;
+        &:hover{
+            background-color: #F5F5F5;
+            color: #357ABD;
+        }
+    }
+}

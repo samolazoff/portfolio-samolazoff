@@ -6,6 +6,7 @@ import Hamburger from 'hamburger-react';
 import Logo from '../../components/Logo/Logo';
 import {NavMain} from '../../components/NavMain/NavMain';
 import NavAuth from '../../components/NavAuth/NavAuth';
+import PanelLaguage from '../../components/PanelLaguage/PanelLaguage';
 
 const Header = (props) => {
    
@@ -27,6 +28,7 @@ const Header = (props) => {
             <nav className={navClass}>
                 <NavMain widthWindow={widthWindow}/>
                 <NavAuth />
+                <PanelLaguage/>
             </nav>
             {
                 widthWindow && <Hamburger
