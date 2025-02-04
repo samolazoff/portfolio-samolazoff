@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom';
 import {useSelector} from 'react-redux';
 
 const NavAuth = () => {
-    const data = useSelector((state) => state.language.navAuth);
+    const data = useSelector((state) => state.language.dataLanguage.navAuth);
     
     return (
         <ul className='nav-auth'>

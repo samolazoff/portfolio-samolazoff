@@ -5,7 +5,7 @@ import {useSelector} from 'react-redux';
 import NavItem from '../NavItem/NavItem';
 
 export const NavMain = (props) => {
-    const data = useSelector((state) => state.language.navMain);
+    const data = useSelector((state) => state.language.dataLanguage.navMain);
     const {widthWindow} = props;
 return (
     <ul className={
