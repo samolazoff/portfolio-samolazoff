@@ -6,8 +6,6 @@ import {isRU, isEN} from '../../slices/languageSlice';
 
 const PanelLaguage = () => {
     const dispatch = useDispatch();
-    const data = useSelector((state) => state.language.dataLanguage.navMain);
-    console.log(data);
     
     return (
         <div className='panel-language'>
