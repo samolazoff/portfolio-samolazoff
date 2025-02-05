@@ -5,20 +5,31 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    background-image: url('../../assets/img/pexels-tuurt-812264-removebg-preview.png');
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
     &-content{
+        position: relative;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         gap: 2rem;
+        padding: 1rem 0;
         &__txt{
-            width: 350px;
+            width: 300px;
             text-transform: capitalize;
             text-align: justify;
             font-size: 1.2rem;
         }
-        
+        .title-box{
+            position: absolute;
+            top: -40px;
+            left: 10px;
+        }
     }
 }
 .block-user{
@@ -27,11 +38,29 @@
     justify-content: flex-start;
     align-items: center;
     gap: 2rem;
-   
-    &-btn-wrap button{
+    &-btn-wrap {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 10px;
+        button{
+            min-width: 150px;
+            padding: 1rem .5rem;
+            border-radius: 1rem;
+            font-size: 1.2rem;
+            background-color: #4A90E2;
+            cursor: pointer;
+            color: #333333;
+            &:hover{
+                background-color: #357ABD !important;
+            }
+        }
+    }
+}
+.button_accent{
+    background-color: #777777 !important;
+    &:hover{
+        background-color: #4A90E2 !important;
     }
 }
