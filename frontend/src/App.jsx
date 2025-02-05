@@ -1,12 +1,10 @@
 import './App.scss';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import {Outlet} from 'react-router-dom';
-import { useState, useEffect } from 'react';
-
+import {useState, useEffect} from 'react';
 
 import Layout from './layout/Layout';
-
+import Home from './pages/Home/Home';
 
 const App = () => {
     const [widthWindow, setWidthWindow] = useState(
@@ -31,7 +29,7 @@ const App = () => {
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<Layout widthWindow={widthWindow}/>}>
-                    <Route index element={<Outlet/>}></Route>
+                    <Route index element={<Home/>}></Route>
                 </Route>
             </Routes>
         </BrowserRouter>

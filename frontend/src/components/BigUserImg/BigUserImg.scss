@@ -1,0 +1,13 @@
+.big-user-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border: 5px solid #4A90E2;
+    border-radius: 50%;
+    img{
+        width: 200px;
+    }
+}
