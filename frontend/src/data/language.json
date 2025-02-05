@@ -14,10 +14,6 @@
                 "path": "blog"
             },
             {
-                "title": "skills",
-                "path": "skills"
-            },
-            {
                 "title": "contacts",
                 "path": "contacts"
             }
@@ -46,10 +42,6 @@
             {
                 "title": "Блог",
                 "path": "blog"
-            },
-            {
-                "title": "Скилы",
-                "path": "skills"
             },
             {
                 "title": "Контакты",

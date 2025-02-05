@@ -5,7 +5,7 @@
     width: 100%;
     &_big{
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     &_small{
         flex-direction: column;
