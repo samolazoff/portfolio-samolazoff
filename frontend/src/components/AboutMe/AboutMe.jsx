@@ -12,22 +12,15 @@ const AboutMe = () => {
                     <button type='button'>My project</button>
                 </div>
             </div>
-            <div className="about-me-content">
-                <h2 className="title-box">About Me</h2>
-                <p className="about-me-content__txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime sint quisquam delectus. Esse, ipsam repellendus nam incidunt consequatur vero consequuntur beatae corporis veritatis possimus architecto amet. Earum obcaecati ipsa fuga?</p>
+            <div className="about-me-content-wrap">
+                <div className="about-me-content">
+                    <h2 className="title-box">About Me</h2>
+                    <p className="about-me-content__txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime sint quisquam delectus. Esse, ipsam repellendus nam incidunt consequatur vero consequuntur beatae corporis veritatis possimus architecto amet. Earum obcaecati ipsa fuga?</p>
+                </div>
+                <div className="about-me-content">
+                    <p className="about-me-content__txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime sint quisquam delectus. Esse, ipsam repellendus nam incidunt consequatur vero consequuntur beatae corporis veritatis possimus architecto amet. Earum obcaecati ipsa fuga?</p>
+                </div> 
             </div>
-            <div className="about-me-content">
-                <p className="about-me-content__txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime sint quisquam delectus. Esse, ipsam repellendus nam incidunt consequatur vero consequuntur beatae corporis veritatis possimus architecto amet. Earum obcaecati ipsa fuga?</p>
-            </div>
-            <div className="about-me-content">
-                <h2 className="title-box">The last Post</h2>
-                <p className="about-me-content__txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime sint quisquam delectus. Esse, ipsam repellendus nam incidunt consequatur vero consequuntur beatae corporis veritatis possimus architecto amet. Earum obcaecati ipsa fuga?</p>
-            </div>
-            <div className="about-me-content">
-                <h2 className="title-box">Current project</h2>
-                <p className="about-me-content__txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime sint quisquam delectus. Esse, ipsam repellendus nam incidunt consequatur vero consequuntur beatae corporis veritatis possimus architecto amet. Earum obcaecati ipsa fuga?</p>
-            </div>
-            
         </section>
     );
 };
