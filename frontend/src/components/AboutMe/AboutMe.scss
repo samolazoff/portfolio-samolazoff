@@ -17,7 +17,7 @@
         align-items: center;
         flex-wrap: wrap;
         flex-shrink: 2;
-        gap: 1rem;
+        gap: 1.5rem;
     }
     &-content{
         display: flex;
@@ -26,11 +26,12 @@
         align-items: flex-start;
         flex-wrap: wrap;
         gap: 1rem;
+        width: 320px;
         &__txt{
-            width: 280px;
             text-transform: capitalize;
             text-align: justify;
             font-size: 1.2rem;
+            letter-spacing: 1.25px;
         }
     }
 }
@@ -41,10 +42,8 @@
     align-items: center;
     flex-wrap: wrap;
     flex-shrink: 1;
-    gap: 2rem;
     &-btn-wrap {
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 10px;
