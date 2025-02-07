@@ -7,8 +7,8 @@ import Contacts from '../../components/Contacts/Contacts';
 const Home = () => {
     return (
         <>
-            {/* <AboutMe> </AboutMe> */}
-            {/* <Skills></Skills> */}
+            <AboutMe> </AboutMe>
+            <Skills></Skills>
             <Contacts></Contacts>
         </>
     )

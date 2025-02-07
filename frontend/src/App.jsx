@@ -5,8 +5,10 @@ import {useState, useEffect} from 'react';
 
 import Layout from './layout/Layout';
 import Home from './pages/Home/Home';
+import ContactsPage from './pages/ContactsPage/ContactsPage';
 
 const App = () => {
+
     const [widthWindow, setWidthWindow] = useState(
         (window.innerWidth<992)?(true):(false)
     );
@@ -30,6 +32,7 @@ const App = () => {
             <Routes>
                 <Route path='/' element={<Layout widthWindow={widthWindow}/>}>
                     <Route index element={<Home/>}></Route>
+                    <Route path='/contacts' element={<ContactsPage/>}></Route>
                 </Route>
             </Routes>
         </BrowserRouter>
