@@ -9,7 +9,29 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        gap: 1rem;
+        gap: 4rem;
         flex-wrap: wrap;
+    }
+    .block-addresses{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: .8rem;
+        .address{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: .5rem;
+            font-size: 1.2rem;
+            &_title{
+                color:#4A90E2;
+                font-weight: 600;
+            }
+            img{
+                width: 25px;
+            }
+        }
     }
 }
