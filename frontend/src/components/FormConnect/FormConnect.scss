@@ -3,30 +3,44 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 15px;
+    gap: 1.5rem;
     button{
-        font-size: 2rem;
-        color:#333333;
+        min-width: 150px;
+        padding: 1rem .5rem;
+        border-radius: 1rem;
+        font-size: 1.2rem;
+        background-color: #4A90E2;
+        cursor: pointer;
+        color: #222222;
+        &:hover{
+            color:#777777;
+            background-color: #357ABD !important;
+        }
     }
     .box-input{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
         gap: 5px;
+        font-size: 1.2rem;
         input, 
-        select{
+        select,
+        option{
             width: 320px;
             height: 2rem;
-            border: 2px solid #333333;
+            padding: .5rem;
+            border: 2px solid #4A90E2;
         }
         input:focus, 
-        select:focus{
-            border: #333333;
+        select:focus,
+        option:focus{
+            border: #357ABD;
         }
         input:active, 
-        select:active{
-            border: 2px solid #333333;
+        select:active,
+        option:active{
+            border: 2px solid #4A90E2;
         }
     }
 }

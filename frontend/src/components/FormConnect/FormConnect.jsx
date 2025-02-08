@@ -81,7 +81,7 @@ function FormConnect() {
             {
                 chouseInput(value)
             }
-            <button type="submit" className='btn btn_important'>Sent</button>
+            <button type="submit">Sent</button>
         </form>
     )
 };

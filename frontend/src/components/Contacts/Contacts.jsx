@@ -37,7 +37,10 @@ const Contacts = () => {
                     <div className="block-social-media">
                     </div>
                 </div>
-                <FormConnect/> 
+                <div className="form-connect-wrap">
+                    <h3 className='subtitle-block'>Connect with Your</h3>
+                    <FormConnect/> 
+                </div>
             </div>
         </section>
     );
