@@ -1,6 +1,6 @@
 import './Header.scss';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Hamburger from 'hamburger-react';
 
 import Logo from '../../components/Logo/Logo';

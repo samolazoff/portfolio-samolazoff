@@ -6,6 +6,7 @@ import {useState, useEffect} from 'react';
 import Layout from './layout/Layout';
 import Home from './pages/Home/Home';
 import ContactsPage from './pages/ContactsPage/ContactsPage';
+import Blog from './pages/Blog/Blog';
 
 const App = () => {
 
@@ -33,6 +34,7 @@ const App = () => {
                 <Route path='/' element={<Layout widthWindow={widthWindow}/>}>
                     <Route index element={<Home/>}></Route>
                     <Route path='/contacts' element={<ContactsPage/>}></Route>
+                    <Route path='/blog' element={<Blog/>}></Route>
                 </Route>
             </Routes>
         </BrowserRouter>
