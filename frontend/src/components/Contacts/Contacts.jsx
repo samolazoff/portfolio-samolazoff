@@ -1,6 +1,7 @@
 import './Contacts.scss';
 
 import FormConnect from '../FormConnect/FormConnect';
+import SocialMedia from '../SocialMedia/SocialMedia';
 
 import mobileImg from '../../assets/svg/mobile-phone-signal-svgrepo-com.svg';
 import mailImg from '../../assets/svg/email-opened-svgrepo-com.svg';
@@ -34,8 +35,7 @@ const Contacts = () => {
                         <span className="address_title">Telegrame:</span>
                         <address>@samolazoff</address>
                     </div>
-                    <div className="block-social-media">
-                    </div>
+                    <SocialMedia/>
                 </div>
                 <div className="form-connect-wrap">
                     <h3 className='subtitle-block'>Connect with Your</h3>
