@@ -44,3 +44,18 @@
         }
     }
 }
+
+@media (max-width: 992px) {
+    .form-connection{
+        gap: 1.0rem;
+        button{
+            min-width: 120px;
+            padding: 0.7rem .3rem;
+            border-radius: .7rem;
+            font-size: 1rem;
+        }
+        .box-input{
+            font-size: 1.0rem;
+        }
+    }
+}

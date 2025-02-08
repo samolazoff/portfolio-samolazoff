@@ -13,6 +13,7 @@
         flex-wrap: wrap;
     }
     .block-addresses{
+        min-width: 400px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -36,9 +37,31 @@
     }
 }
 .form-connect-wrap{
-     display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: .8rem;
+    min-width: 400px;
+}
+@media (max-width: 992px) {
+    .contacts{
+        &-wrap{
+            gap: 2rem;
+        }
+        .block-addresses{
+            min-width: 340px;
+            justify-content: flex-start;
+            gap: .5rem;
+            .social-media{
+                align-self: center;
+            }
+            .address{
+                font-size: 1.0rem;
+            }
+        }
+    }
+    .form-connect-wrap{
+        min-width: 340px;
+    }
 }
