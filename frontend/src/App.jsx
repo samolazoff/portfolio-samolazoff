@@ -7,6 +7,7 @@ import Layout from './layout/Layout';
 import Home from './pages/Home/Home';
 import ContactsPage from './pages/ContactsPage/ContactsPage';
 import Blog from './pages/Blog/Blog';
+import Portfolio from './pages/Portfolio/Portfolio';
 
 const App = () => {
 
@@ -35,6 +36,7 @@ const App = () => {
                     <Route index element={<Home/>}></Route>
                     <Route path='/contacts' element={<ContactsPage/>}></Route>
                     <Route path='/blog' element={<Blog/>}></Route>
+                    <Route path='/portfolio' element={<Portfolio/>}></Route>
                 </Route>
             </Routes>
         </BrowserRouter>
