@@ -2,14 +2,17 @@ import './AboutMe.scss';
 
 import BigUserImg from '../BigUserImg/BigUserImg';
 
+import { useNavigate } from 'react-router-dom';
+
 const AboutMe = () => {
+    const navigate = useNavigate();
     return (
         <section className='about-me'>
             <div className="block-user">
                 <BigUserImg/>
                 <div className="block-user-btn-wrap">
-                    <button type='button' className='button_accent'>Go for it</button>
-                    <button type='button'>My project</button>
+                    <button type='button' className='button_accent' onClick={() => navigate('/contacts')}>Go for it</button>
+                    <button type='button' onClick={() => navigate('/portfolio')}>My project</button>
                 </div>
             </div>
             <div className="about-me-content-wrap">
